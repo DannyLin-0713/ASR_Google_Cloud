@@ -11,4 +11,4 @@ Search the mission progression and result <br>
 3. google_speech_track_task.py <br>
 
 Sequence for using is : 1 or 2 (get mission code) -> 3 <br>
-Please confirm the cloud-path (folder) of 1 before you use <br>
+P.S. Please confirm the cloud-path (folder) of 1 before you use <br>
