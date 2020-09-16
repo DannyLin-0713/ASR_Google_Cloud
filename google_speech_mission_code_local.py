@@ -9,6 +9,7 @@ AuthoID=input("Please input your autho ID \n")
 audio_name=input("Please input your audio name \n")
 channel_count=int(input("please type the channle num \n"))
 
+# encode to base64 first, then trnasfer to utf-8 str to aviod the problem of format
 audio_b = base64.b64encode(open(audio_name,"rb").read())
 audio_c = str(audio_b,'utf8')
 
