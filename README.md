@@ -1,7 +1,7 @@
 # googleASR_python
 There are 3 scripts in this repository <br>
 2 are confirming the audio you want to trans and getting your mission code, <br>
-1 is for search the mission progression and result (use the mission code to do ) <br>
+1 is for searching the mission progression and result (use the mission code to do ) <br>
 
 Confirming audio and getting mission code <br>
 1. google_speech_get_mission_code_cloud_storage.py (when the audio file is on the google cloud storage) <br>
