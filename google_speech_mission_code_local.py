@@ -10,8 +10,7 @@ audio_name=input("Please input your audio name \n")
 channel_count=int(input("please type the channle num \n"))
 
 # encode to base64 first, then trnasfer to utf-8 str to aviod the problem of format
-audio_b = base64.b64encode(open(audio_name,"rb").read())
-audio_c = str(audio_b,'utf8')
+audio_b = str(base64.b64encode(open(audio_name,"rb").read()),'utf8')
 
 url = 'https://speech.googleapis.com/v1/speech:longrunningrecognize?key=' + AuthoID
 headers = {'content-type': 'application/json'}
@@ -26,7 +25,7 @@ requestData={
 },
 "audio":
 {
-"content": audio_c
+"content": audio_b
 } 
 }
 
