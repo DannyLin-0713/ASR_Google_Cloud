@@ -1,4 +1,7 @@
 # googleASR_python
+
+For the FURTHER INFORMATION, pls go to WIKI of this repository
+
 There are 3 scripts in this repository <br>
 2 are confirming the audio you want to trans and getting your mission code, <br>
 1 is for searching the mission progression and result (use the mission code to do ) <br>
